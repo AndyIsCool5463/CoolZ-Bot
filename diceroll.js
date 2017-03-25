@@ -4,7 +4,7 @@ class DiceRollCommand extends commando.Command{
     constructor(client)   {
         super(client, {
                 name: 'roll',
-                group: 'random',
+                group: 'misc',
                 memberName: 'roll',
                 description: 'Rolls A Dick',
                 examples: [ 'Roll'  ]
